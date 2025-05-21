@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Message</title>
+  <style>
+    :root {
+      --bg-light: #f3f4f6;
+      --text-light: #2c3e50;
+      --bg-dark: #1e293b;
+      --text-dark: #f3f4f6;
+      --primary: #6366f1;
+      --secondary: #4ade80;
+      --transition: 0.4s ease-in-out;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      transition: background-color var(--transition), color var(--transition);
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+
+    body.dark-mode {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    header {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    textarea {
+      width: 90%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-family: inherit;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      resize: none;
+      transition: background-color var(--transition), color var(--transition), box-shadow var(--transition);
+    }
+
+    textarea:focus {
+      outline: none;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    body.dark-mode textarea {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background: var(--primary);
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      margin-bottom: 1rem;
+      transition: background-color var(--transition);
+    }
+
+    .toggle-container:hover {
+      background: var(--secondary);
+    }
+
+    .toggle-icon {
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+      color: white;
+      transition: transform var(--transition);
+    }
+
+    .toggle-text {
+      font-size: 1rem;
+      color: white;
+      font-weight: 600;
+    }
+
+    .dark-mode .toggle-icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <header>Personal Message</header>
+  <div class="toggle-container" onclick="toggleMode()">
+    <span class="toggle-icon">☀️</span>
+    <span class="toggle-text">Light Mode</span>
+  </div>
+  <textarea readonly>I am writing this message with full honesty and frankness. No formality, no bullshit, just the simple truth. You might have wondered that why didn't I reach out to you even before your NEET which is one of the most important phase in your life. Ek accha dost ka kaam rehta hai ki woh apne friend ka khayal rakhe especially around these moments jab uska dost ek bahut bada pariksha dene jaa raha ho. NEET ke liye tune 2 saal lagatar mehnat kiya jisme kaafi saare dikkate (like health issues, mental issues, family issues, etc.) bhi aaye lekin phir bhi tune haar nahi maani. Bada dukh lagta hai jab last phase mein aakar ek dost aapse contact lose kardeta hai aur even ek "hi, best of luck!" tak bolne ke liye call nahi karta hai.  Lekin kyun? Aaj uske baare mein tujhe thoda sa bolunga. I know. I know. I know. At this point, you don't even care whatever explaination I put up with because the moment is gone and it will never come back. At this point, you understand the fact that I am cruel and no one in this world can fully be trusted. But, please ek baar read karle so that atleast you and I have closure. Maine jeevan mein aaj tak apna phone kabhi apne parents ko submit nahi kiya hai. Kuch rare occasions hi honge, jisme maine parents ko apna phone diya hoga, shayad, lekin woh bhi sirf 1-2 din ke liye. Aaj tak na mera phone kabhi cheena gaya hai na kabhi check hua hai. Yeh abhi tak ka case hai, future ka nahi pata. Toh kya aaj tak jitne baar bhi maine bola ki "I am submitting my phone to my parents..." woh jhooth tha? Actually haan, because whenever I felt frustated I gave this excuse. Before asking you out to be my girlfriend, I had put up a long thought process because it was a risky thing afterall. I knew my chances of success were very very low. Therefore I made two separate podcasts (audio) with myself with two different titles, [If she accepts...] & [If she rejects...]. Dono audios mein maine plan kiya tha ki uss particular scenario ke baad mera next action plan kya rahega. Lekin fake scenarios aur real situations mein zameen aasmaan ka antar rehta hai. Jab tune  mujhe call pe mana kiya tha, gf waale proposal ko leke, tab I was like, Haan theek hi kii hai, uske situation ke hisaab se usne decision liya hai, plus uski khud ki marzi woh kya karna chaahe. So basically I had nothing in my defence at that point. Neither do I have a defence at this point. At that time I was expecting that ki atleast Shobhit toh thoda dhyaan rakhega mera... lekin nahi... Usne bas ek baar call kiya tha iss topic ke liye bas phir khatam.... zero contact. Banda haal chaal puchne ke liye bhi call nahi karta tha. Mujhe yaad hai ki jab uska bura samay chalta tha tab main har roz use do baar call karta tha atleast... just to distract him... Aur ye cheez maine uske liye countless time kee hain. And this one time when I actually need him, he fucking bails on me? Not even a text? Not even a call? What the actual fuck was that? He did the same thing when my leg was fractured, but theek hai uss samay maanf kar diya tha... but har time accha nahi lagta hai. I am not saying ki he should reciprocate everything that I did for him but atleast DO THE BARE MINIMUM. Now you might say ki uska JEE Main ka preparation chal raha tha toh woh kaise mujhe time dega. Mai bhi yahi socha tha. Lekin nhi, bhai sahab regularly saksham shukla ke ghar ke side cricket khelne jaate the "Mind fresh" karne ke liye. It just says that he had free time "just not for me".  So, I was really upset with him too. I sent him a text regarding this issue and he backlashed at me by saying that I don't understand his situation and he just needs to focus on JEE right now. Sure buddy, I understand! Anyways, I was angry at you too. Because I was feeling that I lost a great friend. I thought we would get closer emotionally but nope. That didn't happen. I understood that you didn't want me in your life at that time. Sneha, jhooth nahi bolunga... mere life mein mai hamesha lonely feel kiya hu. Mere life mein sirf ek hi dost tha, jiske saath main 100% honest reh sakta tha... woh durg mein rehta tha aur uske saath abhi bahut kam contact mein rehta hu. Uske baad se maine kisi se, and when I say, kisi se bhi, I mean it, honestly baat nahi kar paayi hai. Bachpan mein mere saath kuch aisi incidents hui hai jiske kaaran, I don't make friends easily. Not because I don't trust them. Because I don't trust myself. I am too fucking emotional and expect a lot of things from others. And when they don't meet the expectations, I leave them, heartbroken, and alone. Maine yeh har friendship mein kiya hai aur koshish karunga ki agle baar se dhyaan rakhu ki mai zyada logon se expect na karu. Even though we had solved the matter of the "PE practical incident" ages ago, I was still having flashbacks and nightmares in my dreams. Every day I woke up in heavy sweat after getting those dreams. I know this sounds silly and stupid. But it is what it is. I was feeling quite lonely and could not disturb you or shobhit because you both were preparing for your respective examinations. Plus, I am not that expressive that I could explain my dreams or thoughts. Even at this point, I fail to explain myself, but I am trying. Anyways, so I was being haunted by those dreams. The dreams were not specifically about you, it was about my school life and how it scarred me. Well sometimes it was about you but not always. My anger levels and frustration were out of bounds plus nobody could understand what I was going through. After a lot of thought, I realised that I always had a creative mind. A creative mind always lingers here and there if it doesn't get "food for thought ". Hence I started playing piano again and meditated 30 minutes per day. Although, my mind was getting calmer, but something was missing. I talked to a lot of people about my situation and people said that I am at fault. They said that I should have some empathy and should realise other people's problems. Sure. Sure. But who will care about mine? I was getting upset by the responses that people gave me. And that’s when I started praying. Praying to my god. Every day. Every night. I told him. Hey bhagwan, agar sahi mein meri galti hain, toh unke (you & shobhit) saath kuch bura mat karna but if they are at wrong, "MAKE THEM PAY!!" But then something else happened. Shobhit called me on 5th May. He told me ki bhai NEET iss baar kaafi difficult aaya hain... ek baar tin se baat karle... Phir maine 6 taarik ko aditya pungle se baat kii.. Usne bola ki uska 400/720 ban raha hai aur cutoff clear karna bahut difficult lag raha hai. Usne khud se mujhe bola ki sneha ka khud 388/720 ban raha hai. I was quite shocked. Then I realised ki ek baar baat tere se baat karke dekh leta hu ki situation actually kya hain. Jab tune apne incident ke baare mein bataya jo neet hall mein hua, then I was quite shocked ki aisa kaise hogya.... From that time, I decided to stop praying. I knew ki iske baad ab koi dosti wagera nahi rehne waali. Mai tere tone se hi samajh gaya tha ki tu kaafi gussa hai. I guess uss samay tujhe life ke upar bahut gussa aaya hoga. Kosa hoga khud ko. But I think you have calmed down (or not! Idk actually). On another note, I met with Avneesh Shrivastava recently. I hoped that after one year, he might have changed his ways and might have grown emotionally. But boy was I wrong! Bhai toh aur bigad chuke hai. I will not go into details how. Summary bata deta hu. So maine ek bahut pehle group banaya tha "Cycling group" karke. Usme main, Shobhit, nishit aur parv the. Usme kab aur kaaha Cycling karne jaayenge uske liye discussions hote the aur thode bahut memes share karte the. Uske baad Avneesh ko maine add karliya tha kyunki woh tabhi accha dost ban gaya tha. Kuch dino ki baad Parv ne leave kardiya tha group aur sirf hum chaar hi reh gaye the. Uske baad se Cycling toh humne chhod di thi but group ka naam kabhi change nahi kiya. 11th mein, Avneesh kuch jyada hi bekar, misogynistic, aur degrading memes bhejne lag gaya. Bahut mana karne ke baad bhi usne nahi maana. Isliye maine group leave kar diya. Kuch dino ke baad, mere advice par, shobhit ne bhi group leave kar diya tha. Uske baad maine socha tha ki group disband ho gaya hoga aur nishit aur Avneesh bhi leave kar diye honge. Lekin nahi, woh group abhi bhi active hai. Kuch aur friends bhi add hogye hai uss group mein (like roop sarkar). Usme ab memes aur links share hoti hai. Links mein kya? Pinterest links... Instagram links... jisme ladkiyo ki profile rehti hai... mostly ye links dpsd aur dpsb waali ladkiyo ki rehti hai jisse ye log un ladkiyo ko stalk karte hain. Aur ye sab link bhejta kon hai mostly? Waise toh sab hi bhejte hai... lekin sabse jyada Nishit Jha share karta hai. Yup, you heard it. Nishit jha sabse jyada links aur photos bhejta hai ladkiyo kiye. For example, kisi ek ladki ka photo nishit ne group mein bheja... uske baad saare member uss ladki ke physical features ko dekhkar usko rate karte hai aur comment karte... uske breasts ko rate karte... uske dusre body parts ko rate karte... isske aaage toh tu samjh gayi mai kya bolna chah raha hu. So, they are deeply involved in this shit. Sadly, Nishit bhi ab bigad chuka hain. Sure it doesn't affect him academically but... Well what can I say.... Avneesh and Nishit have recently made their new insta accounts. Please don't send or accept their friend requests. You do not know their intentions. Unlog lagte bahut bhole bhaale honge lekin asli cheez toh mai jaanta hu... But... yeh sab cheeze main tujhe kyun bata raha hu???? Kyunki agar aaj tu nahi hoti... agar tu mere se dosti nahi kii hoti... toh aaj shayad mai ussi group mein rehta.. Aur shayad Avneesh se jyada bigar jaata. Tune mere personality ko drastically change kiya hai. And the best part is, that you don’t even realise it. Well, that's why I was very very very hurt... why? Because I was excited that after years, I will be finally honest with someone. (If you accepted my proposal). In these 2 months I was literally shattered. But I do get it now. I have realised my mistake. Things have finally started making sense. And I am improving myself day by day. Brick by brick. Jitna maine iss 2 mahine mein seekha hai utna shayad maine school ke 1 saal mein bhi na seekha ho.... so.... this is it, I guess..... this was my personal message to you..
+</textarea>
+  <script>
+    const body = document.body;
+    const toggleContainer = document.querySelector(".toggle-container");
+    const toggleIcon = document.querySelector(".toggle-icon");
+    const toggleText = document.querySelector(".toggle-text");
+
+    function toggleMode() {
+      body.classList.toggle("dark-mode");
+
+      if (body.classList.contains("dark-mode")) {
+        toggleIcon.textContent = "🌙";
+        toggleText.textContent = "Dark Mode";
+      } else {
+        toggleIcon.textContent = "☀️";
+        toggleText.textContent = "Light Mode";
+      }
+    }
+  </script>
+</body>
+</html>
